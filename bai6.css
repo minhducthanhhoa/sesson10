@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+form {
+    max-width: 300px;
+}
+input[type="submit"] {
+    background-color:blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-login p {
+    margin-bottom: 10px;
+  }
+  
+  .facebook-login, .google-login {
+    display: inline-block;
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .google-login {
+    background-color: #db4a39;
+}

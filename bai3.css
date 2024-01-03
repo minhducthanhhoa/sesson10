@@ -1,0 +1,28 @@
+.sort-horizontal {
+    display: flex;
+  }
+  
+  .sort-horizontal span {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+  }
+  
+  .sort-vertical {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sort-vertical span {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+  }

@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .user-info {
+    float: right;
+    margin-top: 1px;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  .search-box {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input[type="text"] {
+    padding: 5px;
+  }
+  
+  .search-box button {
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
